@@ -1,14 +1,14 @@
 var comparisonOperators = [
-  'Equal',
-  'Not Equal',
-  'Strict Equal',
-  'Strict Not Equal',
-  'Greater Than',
-  'Less Than',
+  "Equal",
+  "Not Equal",
+  "Strict Equal",
+  "Strict Not Equal",
+  "Greater Than",
+  "Less Than",
 ];
-var arithmaticOperators = ['+', '-', '%'];
-var logicalOperators = ['and', 'or', 'not'];
-var myString = 'Hello String';
+var arithmaticOperators = ["+", "-", "%"];
+var logicalOperators = ["and", "or", "not"];
+var myString = "Hello String";
 
 //Array Methods
 // Sorts comparisonOperators array and returns the sorted array
@@ -18,7 +18,7 @@ comparisonOperators.sort();
 console.log(comparisonOperators);
 
 // Adds elements to end of an array. Takes in at least one parameter
-arithmaticOperators.push('%');
+arithmaticOperators.push("%");
 
 //Logs array with element "%" added to end
 console.log(arithmaticOperators);
@@ -34,7 +34,7 @@ console.log(logicalOperators);
 
 //String Methods
 //Replaces "String" with "World" and returns new string
-var myNewString = myString.replace('String', 'World');
+var myNewString = myString.replace("String", "World");
 console.log(myNewString);
 
 //The orginal string is unchanged

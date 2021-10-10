@@ -1,0 +1,18 @@
+step-1
+call moment Js in the given HTML file
+
+step-2
+format the date to day month date based on moment js and put under the header
+
+step-3 (work with the structure)
+-Create three boxes (in the middle part width high;small boxes in the both side same size) using bootsrap
+-responsive layout
+-middle part (Text) will be clickable and can show recorded data
+-this box should be linked with box on the right which enable to record data in the local store by time 
+(so should be linked with moment js too) 
+-All tree boxes in a row will be repeated 9 times
+-On the left size box fixed time from 9am to 5pm will be given
+-use css in relation to moment js and fixed time from 9-5 and color code the cells in the middle grey(past), red(present)
+ and green(future)
+
+ 
