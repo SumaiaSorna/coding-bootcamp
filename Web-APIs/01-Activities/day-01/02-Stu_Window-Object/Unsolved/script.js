@@ -1,11 +1,11 @@
-// TODO: What will the following line of code log?
+// Window object is a open browser with lot of properties like Document
 console.log(window);
 
-// TODO: What will the following line of code log?
+// Document is a propertities with HTML page
 console.log(window.document);
 
-// TODO: What will the following line of code log?
+// in documentElement we can get all the HTML elements
 console.log(document.documentElement);
 
-// TODO: What will the following line of code log?
+// in document.head we can find all the head elements
 console.log(document.head);
