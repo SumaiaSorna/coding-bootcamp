@@ -17,7 +17,11 @@ function renderLastRegistered() {
   const email = localStorage.getItem("Email");
 
   console.log(email);
-  localStorage.getItem("Password");
+  const password = localStorage.getItem("Password");
+  console.log(password);
+
+  userEmailSpan.textContent = email;
+  userPasswordSpan.textContent = password;
 }
 
 signUpButton.addEventListener("click", function (event) {
